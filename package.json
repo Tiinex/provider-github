@@ -1,0 +1,40 @@
+{
+  "name": "@tiinex/provider-github",
+  "version": "0.1.0",
+  "private": false,
+  "description": "First-party GitHub provider for Tiinex \u2014 GitHub and GitHub-compatible source discovery, browsing, Git resolution and publication over provider-neutral Core and App contracts.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiinex/provider-github.git"
+  },
+  "engines": {
+    "node": ">=22.14"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "pack:check": "npm pack --dry-run",
+    "validate": "npm test && npm run pack:check",
+    "release:preview": "node tools/release.mjs preview",
+    "publish:bootstrap": "node tools/release.mjs bootstrap",
+    "release:prepare": "node tools/release.mjs prepare",
+    "release:publish": "node tools/release.mjs publish"
+  },
+  "devDependencies": {
+    "@tiinex/core": "0.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

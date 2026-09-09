@@ -1,0 +1,5 @@
+provider-github
+
+First-party GitHub provider for Tiinex — GitHub and GitHub-compatible source discovery, browsing, Git resolution and publication over provider-neutral Core and App contracts.
+
+Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Turn-2 repository-decomposition frontier.

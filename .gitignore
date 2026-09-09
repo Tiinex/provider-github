@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+coverage/
+dist/
+.env
+.env.*
+!.env.example
+.release/
+.tiinex/

@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tiinex: commit message from staged artifacts",
+      "type": "shell",
+      "command": "node tools/tiinex-commit-message.mjs",
+      "group": "none",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true,
+        "showReuseMessage": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "contract": "tiinex.master-npm-release.v1",
+  "repository": "Tiinex/provider-github",
+  "branch": "master",
+  "defaultBump": "patch",
+  "before1Breaking": "minor",
+  "explicitMajor": "[release:major]",
+  "state": "npm version metadata; sourceCommit; no auto Git commits"
+}

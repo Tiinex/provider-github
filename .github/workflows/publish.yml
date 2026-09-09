@@ -1,0 +1,39 @@
+name: Publish npm
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: npm-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: vars.TIINEX_ENABLE_NPM_PUBLISH == 'true' && github.ref == 'refs/heads/master' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    environment: npm
+    timeout-minutes: 25
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      TIINEX_ENABLE_NPM_PUBLISH: ${{ vars.TIINEX_ENABLE_NPM_PUBLISH }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - run: npm install --global npm@11.6.2
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run validate
+      - name: Plan automatic version and pack the exact tested source commit
+        run: node tools/release.mjs prepare
+      - name: Publish exact archive through OIDC, or skip idempotently
+        run: node tools/release.mjs publish
