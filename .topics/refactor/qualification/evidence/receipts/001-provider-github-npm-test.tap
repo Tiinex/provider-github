@@ -1,0 +1,86 @@
+
+> @tiinex/provider-github@0.1.0 test
+> node --test test/*.test.mjs
+
+TAP version 13
+# Subtest: GitHub provider exposes the neutral adapter contract
+ok 1 - GitHub provider exposes the neutral adapter contract
+  ---
+  duration_ms: 1.089641
+  type: 'test'
+  ...
+# Subtest: host qualification never infers unrelated forges as GitHub-compatible
+ok 2 - host qualification never infers unrelated forges as GitHub-compatible
+  ---
+  duration_ms: 0.489162
+  type: 'test'
+  ...
+# Subtest: repository identity is bounded to the qualified GitHub-family host
+ok 3 - repository identity is bounded to the qualified GitHub-family host
+  ---
+  duration_ms: 0.507039
+  type: 'test'
+  ...
+# Subtest: GitHub repo discovery resolves default branch to exact commit and returns bounded Markdown refs
+ok 4 - GitHub repo discovery resolves default branch to exact commit and returns bounded Markdown refs
+  ---
+  duration_ms: 22.70897
+  type: 'test'
+  ...
+# Subtest: GitHub materialization reads exact-commit raw content and records source identity
+ok 5 - GitHub materialization reads exact-commit raw content and records source identity
+  ---
+  duration_ms: 4.663529
+  type: 'test'
+  ...
+# Subtest: custom GitHub-compatible hosts use explicitly configured API shape, not guessed raw hostnames
+ok 6 - custom GitHub-compatible hosts use explicitly configured API shape, not guessed raw hostnames
+  ---
+  duration_ms: 1.519584
+  type: 'test'
+  ...
+# Subtest: absolute GitHub file references reject cross-repository and unrelated-host URLs
+ok 7 - absolute GitHub file references reject cross-repository and unrelated-host URLs
+  ---
+  duration_ms: 0.524525
+  type: 'test'
+  ...
+# Subtest: same-repository absolute file refs cannot silently switch the exact source ref
+ok 8 - same-repository absolute file refs cannot silently switch the exact source ref
+  ---
+  duration_ms: 0.593508
+  type: 'test'
+  ...
+# Subtest: custom-host social publication is blocked before destructive execution until the shared contract can qualify it
+ok 9 - custom-host social publication is blocked before destructive execution until the shared contract can qualify it
+  ---
+  duration_ms: 0.984012
+  type: 'test'
+  ...
+# Subtest: publication is fail-closed without exact plan-bound authorization
+ok 10 - publication is fail-closed without exact plan-bound authorization
+  ---
+  duration_ms: 0.477786
+  type: 'test'
+  ...
+# Subtest: repo-file publication performs explicit update and exact read-after-write verification
+ok 11 - repo-file publication performs explicit update and exact read-after-write verification
+  ---
+  duration_ms: 2.80634
+  type: 'test'
+  ...
+# Subtest: package and release policy bind the provider-github repository identity and public provider surface
+ok 12 - package and release policy bind the provider-github repository identity and public provider surface
+  ---
+  duration_ms: 161.658544
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 234.326357

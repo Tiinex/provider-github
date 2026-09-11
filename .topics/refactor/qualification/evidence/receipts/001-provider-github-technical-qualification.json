@@ -1,0 +1,152 @@
+{
+  "schema": "tiinex.provider.technical-qualification-receipt.v1",
+  "workspaceId": "provider-github",
+  "package": {
+    "name": "@tiinex/provider-github",
+    "version": "0.1.0"
+  },
+  "qualification": {
+    "test": {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 12,
+      "pass": 12,
+      "fail": 0,
+      "expectedTests": 12,
+      "stdoutPath": ".topics/refactor/qualification/evidence/receipts/001-provider-github-npm-test.tap",
+      "stdoutSha256": "429928ea1a866e06884dd461fa2c3eb416f98bf81ddbfa68a7bc35d76dbb4587"
+    },
+    "pack": {
+      "command": "npm pack --dry-run --json",
+      "exitCode": 0,
+      "outputPath": ".topics/refactor/qualification/evidence/receipts/001-provider-github-npm-pack-dry-run.json",
+      "outputSha256": "f999f8c1ef85d167e162ea5ff1c2622e558d74bdebc74941c1c0f79aabd2b9bf",
+      "filename": "tiinex-provider-github-0.1.0.tgz",
+      "size": 17345,
+      "unpackedSize": 67933,
+      "shasum": "078649431b0ea9b6566db51bb9700ad31ce1b68d",
+      "integrity": "sha512-G5j+AnAjCmUWiCxB9IKbvf1kt82OI7ou/jjT9PFIO8BxmmhxLqsLZfzDy9nxJBJqp5OFPl0wMjRJsE2i2Z9rUw==",
+      "entryCount": 11,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 10325,
+          "mode": 420
+        },
+        {
+          "path": "NOTICE",
+          "size": 1066,
+          "mode": 420
+        },
+        {
+          "path": "README.md",
+          "size": 4378,
+          "mode": 420
+        },
+        {
+          "path": "package.json",
+          "size": 1125,
+          "mode": 420
+        },
+        {
+          "path": "src/github.discovery.js",
+          "size": 4784,
+          "mode": 420
+        },
+        {
+          "path": "src/github.host.js",
+          "size": 3256,
+          "mode": 420
+        },
+        {
+          "path": "src/github.materialize.js",
+          "size": 12715,
+          "mode": 420
+        },
+        {
+          "path": "src/github.publication.js",
+          "size": 18110,
+          "mode": 420
+        },
+        {
+          "path": "src/github.source.js",
+          "size": 8242,
+          "mode": 420
+        },
+        {
+          "path": "src/github.transport.js",
+          "size": 3009,
+          "mode": 420
+        },
+        {
+          "path": "src/index.js",
+          "size": 923,
+          "mode": 420
+        }
+      ]
+    }
+  },
+  "sourceManifest": [
+    {
+      "path": "package.json",
+      "bytes": 1125,
+      "sha256": "13ac39c68372b8fbe3a5c2d56bbf021b08e2f9ed6f7b89a54224f01a128f51ca"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 611,
+      "sha256": "3cf97a0ed27486e89eff5c2c6c9538fb00e0d1f8f30d1e3c5631cd729812828c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4378,
+      "sha256": "aad3104bbf06f05de77080849c489edef82e4cf2efaea4f3000eb7d72812e31c"
+    },
+    {
+      "path": "src/github.discovery.js",
+      "bytes": 4784,
+      "sha256": "c00f32e2d59ffc8e1213fa73cc169ff510f62f657a4f2c0304701bb7d7055b11"
+    },
+    {
+      "path": "src/github.host.js",
+      "bytes": 3256,
+      "sha256": "26e6f9ee6d3bef12a3da89a80fe921b3d36acb91aadea62498c53054ef51f831"
+    },
+    {
+      "path": "src/github.materialize.js",
+      "bytes": 12715,
+      "sha256": "99a48eb7f2510a111e87e732f98c6bb74e76e17f5a17dc61b66f5e0026adc743"
+    },
+    {
+      "path": "src/github.publication.js",
+      "bytes": 18110,
+      "sha256": "1bc44496d88dd6fcf38cbdc75b0be2f37f903d30658662408a93c339d0556fb1"
+    },
+    {
+      "path": "src/github.source.js",
+      "bytes": 8242,
+      "sha256": "fe86439117e754458d945e85a59f69e5163f3b9e8a61ac39cfd8ba290c129ed9"
+    },
+    {
+      "path": "src/github.transport.js",
+      "bytes": 3009,
+      "sha256": "88a542157eb3cd15bf216df83a77197c3ec72d2c2af024a56772e25db1c5aa0a"
+    },
+    {
+      "path": "src/index.js",
+      "bytes": 923,
+      "sha256": "5c06a1fd7f954e84a2ecf41492c6db5921eace3850b16000aa2d7c5580f71cee"
+    },
+    {
+      "path": "test/github-provider.test.mjs",
+      "bytes": 11342,
+      "sha256": "24f8709d610dd8d9106ed632ee5d39f2df146f6ba8a51ae1d5b89f227aa041af"
+    },
+    {
+      "path": "test/package-boundary.test.mjs",
+      "bytes": 1471,
+      "sha256": "8fd74eef2ee9d52c3d82b741e5e9bf81210358c23ebad8b38434cb6c4d062eb0"
+    }
+  ],
+  "boundary": "Local technical qualification only. No npm publication, registry mutation, Core mutation, or App mutation was performed."
+}

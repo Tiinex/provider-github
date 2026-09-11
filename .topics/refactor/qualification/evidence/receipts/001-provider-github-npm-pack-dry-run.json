@@ -1,0 +1,71 @@
+[
+  {
+    "id": "@tiinex/provider-github@0.1.0",
+    "name": "@tiinex/provider-github",
+    "version": "0.1.0",
+    "size": 17345,
+    "unpackedSize": 67933,
+    "shasum": "078649431b0ea9b6566db51bb9700ad31ce1b68d",
+    "integrity": "sha512-G5j+AnAjCmUWiCxB9IKbvf1kt82OI7ou/jjT9PFIO8BxmmhxLqsLZfzDy9nxJBJqp5OFPl0wMjRJsE2i2Z9rUw==",
+    "filename": "tiinex-provider-github-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 10325,
+        "mode": 420
+      },
+      {
+        "path": "NOTICE",
+        "size": 1066,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 4378,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1125,
+        "mode": 420
+      },
+      {
+        "path": "src/github.discovery.js",
+        "size": 4784,
+        "mode": 420
+      },
+      {
+        "path": "src/github.host.js",
+        "size": 3256,
+        "mode": 420
+      },
+      {
+        "path": "src/github.materialize.js",
+        "size": 12715,
+        "mode": 420
+      },
+      {
+        "path": "src/github.publication.js",
+        "size": 18110,
+        "mode": 420
+      },
+      {
+        "path": "src/github.source.js",
+        "size": 8242,
+        "mode": 420
+      },
+      {
+        "path": "src/github.transport.js",
+        "size": 3009,
+        "mode": 420
+      },
+      {
+        "path": "src/index.js",
+        "size": 923,
+        "mode": 420
+      }
+    ],
+    "entryCount": 11,
+    "bundled": []
+  }
+]
