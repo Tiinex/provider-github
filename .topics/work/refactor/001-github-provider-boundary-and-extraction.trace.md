@@ -4,9 +4,9 @@
 - Parent
   - Parent Schema: [tiinex.topic.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/topic/tiinex.topic.v1.schema.md)
   - Created At: 2026-09-09 15:45:03
-  - Trace: [001-turn-2-repository-decomposition-frontier.trace.md](../../business::.topics/initiatives/refactor/repositories/001-turn-2-repository-decomposition-frontier.trace.md)
+  - Trace: [001-turn-2-repository-decomposition-frontier.trace.md](https://github.com/Tiinex/business/blob/15a9d4e8cf1c1653fc4dc1c2cf66b5b9304a4ba0/.topics/initiatives/refactor/repositories/001-turn-2-repository-decomposition-frontier.trace.md)
   - Origin:
-    - [relative](../../business::.topics/initiatives/refactor/repositories/001-turn-2-repository-decomposition-frontier.trace.md)
+    - [browse + git](https://github.com/Tiinex/business/blob/15a9d4e8cf1c1653fc4dc1c2cf66b5b9304a4ba0/.topics/initiatives/refactor/repositories/001-turn-2-repository-decomposition-frontier.trace.md)
 - Current
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
   - Created At: 2026-09-09 15:48:19
@@ -44,9 +44,9 @@ GitHub and genuinely GitHub-compatible host behavior. Generic browse/git semanti
 # Continuity Integrity
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
-  - Towards: [001-turn-2-repository-decomposition-frontier.trace.md](../../business::.topics/initiatives/refactor/repositories/001-turn-2-repository-decomposition-frontier.trace.md)
+  - Towards: [001-turn-2-repository-decomposition-frontier.trace.md](https://github.com/Tiinex/business/blob/15a9d4e8cf1c1653fc4dc1c2cf66b5b9304a4ba0/.topics/initiatives/refactor/repositories/001-turn-2-repository-decomposition-frontier.trace.md)
   - Value: FSTPBfQmP7ZXOwuLt5OxiGGRIC7uF4WtwqPKJO54Dzw
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: HV7PH013mfpHl7WBvj_yC7Z59H6mnx4U7gvMMGzMBew
+  - Value: 6NoVEmj-rklEMKAyWEviK47U4jk8UMsA_s4otffnQH0

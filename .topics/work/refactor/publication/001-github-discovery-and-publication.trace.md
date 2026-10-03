@@ -9,19 +9,19 @@
     - [relative](../001-github-provider-boundary-and-extraction.trace.md)
 - Current
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
-  - Created At: 2026-09-09 15:48:22
+  - Created At: 2026-09-09 15:48:21
   - Authors: Anchor
   - Why: Decompose provider-github work so progress and later Reduction remain local and auditable.
-  - Summary: Prove provider package surface, GitHub-compatible host configuration, and Core/App operation without hidden GitHub branching.
+  - Summary: Isolate GitHub API, repository discovery and publication policy behind the provider boundary.
   - Status: ready/local
 
 ---
 
-# GitHub provider qualification
+# GitHub discovery and publication
 
 ## Objective
 
-Prove provider package surface, GitHub-compatible host configuration, and Core/App operation without hidden GitHub branching.
+Isolate GitHub API, repository discovery and publication policy behind the provider boundary.
 
 ## Done Criteria
 
@@ -44,8 +44,8 @@ Repository-local work for this subarea only. Do not expand into sibling reposito
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-github-provider-boundary-and-extraction.trace.md](../001-github-provider-boundary-and-extraction.trace.md)
-  - Value: HV7PH013mfpHl7WBvj_yC7Z59H6mnx4U7gvMMGzMBew
+  - Value: 6NoVEmj-rklEMKAyWEviK47U4jk8UMsA_s4otffnQH0
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 7IHQ-W68u_n_RPlyofu-7CVVNl_bZY45SHEZBKR9qqk
+  - Value: osSxEn0dKRtyARTvPpW_1Y30MHGBgXwkeSQSeCd3oSA

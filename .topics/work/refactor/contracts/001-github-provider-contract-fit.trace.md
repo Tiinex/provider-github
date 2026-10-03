@@ -9,19 +9,19 @@
     - [relative](../001-github-provider-boundary-and-extraction.trace.md)
 - Current
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
-  - Created At: 2026-09-09 15:48:20
+  - Created At: 2026-09-09 15:48:19
   - Authors: Anchor
   - Why: Decompose provider-github work so progress and later Reduction remain local and auditable.
-  - Summary: Implement GitHub-family resolution over generic browse/git recovery semantics without making GitHub semantic authority.
+  - Summary: Map current GitHub coupling to generic provider capabilities and identify leakage that must leave Core/App.
   - Status: ready/local
 
 ---
 
-# GitHub browse and git resolution
+# GitHub provider contract fit
 
 ## Objective
 
-Implement GitHub-family resolution over generic browse/git recovery semantics without making GitHub semantic authority.
+Map current GitHub coupling to generic provider capabilities and identify leakage that must leave Core/App.
 
 ## Done Criteria
 
@@ -44,8 +44,8 @@ Repository-local work for this subarea only. Do not expand into sibling reposito
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-github-provider-boundary-and-extraction.trace.md](../001-github-provider-boundary-and-extraction.trace.md)
-  - Value: HV7PH013mfpHl7WBvj_yC7Z59H6mnx4U7gvMMGzMBew
+  - Value: 6NoVEmj-rklEMKAyWEviK47U4jk8UMsA_s4otffnQH0
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: yEVX1-gt9LqTuOc2OqM-S2vfQOV9WeFRhvMxKdSyx7k
+  - Value: FiFXrki-m4FmUT1ypNNldDh9Fi_Ns_2MLEjIS9l9D2E
