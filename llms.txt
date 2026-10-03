@@ -2,4 +2,7 @@ provider-github
 
 First-party GitHub provider for Tiinex — GitHub and GitHub-compatible source discovery, browsing, Git resolution and publication over provider-neutral Core and App contracts.
 
-Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Turn-2 repository-decomposition frontier.
+Grounding boundary:
+- Start from `.topics/.workspaces/tiinex-provider-github.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
+- Historical provider/refactor work is reduced; no prior Task is current. Future GitHub-provider work starts from a new explicit bounded Task with truthful Project ancestry.
+- Provider code implements GitHub-specific capability; provider-neutral semantic qualification remains outside this repository.
