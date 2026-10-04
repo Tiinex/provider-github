@@ -1,8 +1,7 @@
-provider-github
+# Tiinex/provider-github LLM Bootstrap
 
-First-party GitHub provider for Tiinex — GitHub and GitHub-compatible source discovery, browsing, Git resolution and publication over provider-neutral Core and App contracts.
+This repository uses Tiinex. `.topics/**` and qualified source material are semantic/provenance authority; this file is only a bootstrap hint.
 
-Grounding boundary:
-- Start from `.topics/.workspaces/tiinex-provider-github.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
-- Historical provider/refactor work is reduced; no prior Task is current. Future GitHub-provider work starts from a new explicit bounded Task with truthful Project ancestry.
-- Provider code implements GitHub-specific capability; provider-neutral semantic qualification remains outside this repository.
+Use Tiinex Tooling to discover and qualify the Workspace entrypoint under `.topics/.workspaces`, then follow only the qualified artifacts and processes applicable to the current task.
+
+Do not use `llms.txt` or `README.md` as an artifact index, current-work declaration, or substitute for Tiinex discovery/grounding.
